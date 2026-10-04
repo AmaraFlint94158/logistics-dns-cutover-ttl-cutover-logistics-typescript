@@ -1,0 +1,20 @@
+{
+  "name": "logistics-dns-cutover",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/logistics_cutover.ts",
+    "example": "tsx src/logistics_cutover.ts --example",
+    "test": "tsx --test test/cutover_planner.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
